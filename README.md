@@ -25,7 +25,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [01: Historical Context & Problem Statement](./01_Historical_Context_Problem.md)
+## [01: Historical Context & Problem Statement](01_HistoricalContext.md)
 
 ### What You'll Learn
 - Current state of AI fairness across 15+ banking systems
@@ -50,7 +50,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [02: Overview & Integration Logic](./02_Overview_Integration.md)
+## [02: Overview & Integration Logic](02_Overview_Integration.md)
 
 ### What You'll Learn
 - Four-component architecture (Causal → Pre → In → Post)
