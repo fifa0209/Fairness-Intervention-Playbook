@@ -1,4 +1,4 @@
-# Fairness Intervention Playbook
+# Fairness Intervention Framework
 
 ## 📁 Complete Document Structure
 
@@ -8,24 +8,24 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ## Document Overview
 
-| # | Document | Purpose | Key Content | Time to Read |
+| # | Document | Purpose | Key Content | Link |
 |---|----------|---------|-------------|--------------|
-| **01** | Historical Context & Problem | Understand the challenge | Business impact, regulatory context, success criteria | 15 min |
-| **02** | Overview & Integration | See how components connect | Architecture, decision trees, workflow examples | 20 min |
-| **03** | Causal Fairness Toolkit | Diagnose WHY bias exists | 4 discrimination types, causal analysis process | 30 min |
-| **04** | Pre-Processing Toolkit | Fix DATA-level bias | Reweighting, transformation, synthetic generation | 25 min |
-| **05** | In-Processing Toolkit | Fix MODEL-level bias | Constrained optimization, adversarial debiasing | 25 min |
-| **06** | Post-Processing Toolkit | Fix OUTPUT-level bias | Threshold optimization, calibration | 25 min |
-| **07** | Validation Framework | Measure effectiveness | Statistical tests, intersectional analysis, monitoring | 20 min |
-| **08** | Implementation Guide | Deploy in organization | Team structure, timelines, CI/CD integration | 25 min |
-| **09** | Case Study | See it in action | Complete loan approval intervention (4 weeks) | 30 min |
+| **01** | Historical Context & Problem | Understand the challenge | Business impact, regulatory context, success criteria | [1](Components/01_HistoricalContext.md) |
+| **02** | Overview & Integration | See how components connect | Architecture, decision trees, workflow examples |  [2](Components/02_Overview_Integration.md)|
+| **03** | Causal Fairness Toolkit | Diagnose WHY bias exists | 4 discrimination types, causal analysis process |  [3](Components/03_CausalFairnessToolkit.md) |
+| **04** | Pre-Processing Toolkit | Fix DATA-level bias | Reweighting, transformation, synthetic generation | [4](Components/04_PreProcessingToolkit.md)|
+| **05** | In-Processing Toolkit | Fix MODEL-level bias | Constrained optimization, adversarial debiasing |  [5](Components/05_InProcessingToolkit.md)|
+| **06** | Post-Processing Toolkit | Fix OUTPUT-level bias | Threshold optimization, calibration |  [6](Components/06_PostProcessingToolkit.md) |
+| **07** | Validation Framework | Measure effectiveness | Statistical tests, intersectional analysis, monitoring |  [7](Components/07_Validationframework.md)|
+| **08** | Implementation Guide | Deploy in organization | Team structure, timelines, CI/CD integration |  [8](Components/08_ImplementationGuide.md) |
+| **09** | Case Study | See it in action | Complete loan approval intervention (4 weeks) | [9](Components/09_CaseStudy.md) |
 
 **Total Reading Time**: ~3.5 hours for comprehensive understanding  
 **Quick Start**: Read 01, 02, and 09 for overview (65 minutes)
 
 ---
 
-## [01: Historical Context & Problem Statement](01_HistoricalContext.md)
+## [01: Historical Context & Problem Statement](Components/01_HistoricalContext.md)
 
 ### What You'll Learn
 - Current state of AI fairness across 15+ banking systems
@@ -50,7 +50,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [02: Overview & Integration Logic](02_Overview_Integration.md)
+## [02: Overview & Integration Logic](Components/02_Overview_Integration.md)
 
 ### What You'll Learn
 - Four-component architecture (Causal → Pre → In → Post)
@@ -76,7 +76,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [03: Causal Fairness Toolkit](./03_Causal_Fairness_Toolkit.md)
+## [03: Causal Fairness Toolkit](Components/03_CausalFairnessToolkit.md)
 
 ### What You'll Learn
 - Four discrimination mechanisms (Direct, Proxy, Mediator, Selection)
@@ -105,7 +105,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [04: Pre-Processing Fairness Toolkit](./04_PreProcessing_Fairness_Toolkit.md)
+## [04: Pre-Processing Fairness Toolkit](Components/04_PreProcessingToolkit.md)
 
 ### What You'll Learn
 - Three techniques: Reweighting, Transformation, Generation
@@ -133,7 +133,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [05: In-Processing Fairness Toolkit](./05_InProcessing_Fairness_Toolkit.md)
+## [05: In-Processing Fairness Toolkit](Components/05_InProcessingToolkit.md)
 
 ### What You'll Learn
 - Three techniques: Constraints, Adversarial, Regularization
@@ -162,7 +162,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [06: Post-Processing Fairness Toolkit](./06_PostProcessing_Fairness_Toolkit.md)
+## [06: Post-Processing Fairness Toolkit](Components/06_PostProcessingToolkit.md)
 
 ### What You'll Learn
 - Four techniques: Thresholds, Calibration, Transformation, Rejection
@@ -191,7 +191,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [07: Validation Framework](./07_Validation_Framework.md)
+## [07: Validation Framework](Components/07_Validationframework.md)
 
 ### What You'll Learn
 - Before/after comparison methodology
@@ -220,7 +220,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [08: Implementation Guide & Adoption](./08_Implementation_Guide.md)
+## [08: Implementation Guide & Adoption](Components/08_ImplementationGuide.md)
 
 ### What You'll Learn
 - Organizational requirements (teams, roles)
@@ -255,7 +255,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## [09: Case Study - Loan Approval System](./09_Case_Study.md)
+## [09: Case Study - Loan Approval System](Components/09_CaseStudy.md)
 
 ### What You'll Learn
 - Complete 4-week intervention (week by week)
@@ -384,5 +384,4 @@ Output: Validation report, production deployment
 
 ---
 
-**Ready to start?** Begin with [01: Historical Context & Problem Statement](./01_Historical_Context_Problem.md) to understand the challenge, then proceed to [02: Overview & Integration Logic](./02_Overview_Integration.md) to see how the solution works.
 
