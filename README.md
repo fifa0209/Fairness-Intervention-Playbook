@@ -105,7 +105,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## 📊 [04: Pre-Processing Fairness Toolkit](./04_PreProcessing_Fairness_Toolkit.md)
+## [04: Pre-Processing Fairness Toolkit](./04_PreProcessing_Fairness_Toolkit.md)
 
 ### What You'll Learn
 - Three techniques: Reweighting, Transformation, Generation
@@ -133,7 +133,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## 🤖 [05: In-Processing Fairness Toolkit](./05_InProcessing_Fairness_Toolkit.md)
+## [05: In-Processing Fairness Toolkit](./05_InProcessing_Fairness_Toolkit.md)
 
 ### What You'll Learn
 - Three techniques: Constraints, Adversarial, Regularization
@@ -162,7 +162,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ---
 
-## 🎯 [06: Post-Processing Fairness Toolkit](./06_PostProcessing_Fairness_Toolkit.md)
+## [06: Post-Processing Fairness Toolkit](./06_PostProcessing_Fairness_Toolkit.md)
 
 ### What You'll Learn
 - Four techniques: Thresholds, Calibration, Transformation, Rejection
@@ -338,26 +338,6 @@ Output: Validation report, production deployment
 | **Mediator discrimination** | In-processing (constraints) | 2-3 weeks | 40-70% |
 | **Selection bias in data** | Pre-processing (reweight) | 1-2 weeks | 60-90% |
 | **Multiple issues** | All components (staged) | 4-5 weeks | 80-95% |
-
----
-
-## Support & Resources
-
-### Documentation
-- **Full Playbook**: All 9 documents in `/playbook/` directory
-- **Code Examples**: `/code/` directory with implementations
-- **Templates**: `/templates/` for your projects
-- **Video Tutorials**: Coming Q1 2025
-
-### Training
-- **2-Day Workshop**: Hands-on training for teams
-- **Office Hours**: Weekly Q&A sessions (Fridays 2-3pm)
-- **Slack Channel**: #fairness-intervention-playbook
-
-### Contacts
-- **Technical Issues**: fairness-tech@company.com
-- **Domain Questions**: fairness-experts@company.com
-- **Escalations**: fairness-lead@company.com
 
 ---
 
