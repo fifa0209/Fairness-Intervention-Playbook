@@ -115,9 +115,6 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ### Key Sections
 4.1 Three Core Techniques  
-  - Reweighting & Resampling (representation)
-  - Feature Transformation (proxy removal)
-  - Synthetic Data Generation (severe imbalance)
 4.2 Selection Decision Tree  
 4.3 Implementation Process  
 4.4 Best Practices  
