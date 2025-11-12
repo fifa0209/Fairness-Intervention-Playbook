@@ -217,18 +217,9 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ### Key Sections
 8.1 Organizational Requirements  
-  - Core Fairness Team (3-5 FTE)
-  - Per-Project Teams
 8.2 Time & Cost Estimates  
-  - Initial setup: $105K, 2 weeks
-  - Per-project: $40K, 3-4 weeks
-  - Annual: $915K (Year 1), $765K (steady-state)
 8.3 Integration with Existing Processes  
-  - ML development lifecycle
-  - CI/CD pipeline examples
 8.4 Governance Structure  
-  - Three-tier accountability
-  - Fairness Review Board
 8.5 Technology Stack  
 8.6 Change Management & Adoption  
 8.7 Risk Mitigation
