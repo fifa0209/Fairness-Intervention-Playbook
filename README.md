@@ -140,9 +140,6 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ### Key Sections
 5.1 Three Core Techniques  
-  - Constrained Optimization (fairness constraints)
-  - Adversarial Debiasing (neural networks)
-  - Fairness Regularization (penalty terms)
 5.2 Multi-Objective Optimization  
 5.3 Selection Decision Tree  
 5.4 Implementation Process  
@@ -169,10 +166,6 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 
 ### Key Sections
 6.1 Four Core Techniques  
-  - Threshold Optimization (group-specific thresholds)
-  - Calibration (consistent probability meanings)
-  - Prediction Transformation (complex criteria)
-  - Rejection Classification (human review)
 6.2 Selection Decision Tree  
 6.3 Implementation Process  
 6.4 Combining Techniques  
@@ -199,10 +192,7 @@ This playbook is organized into 9 comprehensive documents that guide you from pr
 ### Key Sections
 7.1 Validation Checklist  
 7.2 Fairness Metrics Suite  
-  - Statistical Parity, Equal Opportunity, Equalized Odds
-  - Predictive Parity, Calibration (ECE)
 7.3 Statistical Significance Testing  
-  - Chi-square tests, Bootstrap confidence intervals
 7.4 Performance Impact Assessment  
 7.5 Intersectional Fairness Check  
 7.6 Temporal Stability & Monitoring  
